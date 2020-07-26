@@ -1,0 +1,7 @@
+{
+  "name": "GitHub Packages",
+  "link": "https://github.com/features/packages",
+  "dependencies": [
+    "github"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "AWS Api Gateway",
+  "link": "https://aws.amazon.com/api-gateway/",
+  "dependencies": [
+    "aws"
+  ]
+}

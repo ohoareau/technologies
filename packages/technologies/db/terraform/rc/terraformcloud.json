@@ -1,0 +1,9 @@
+{
+  "name": "~/.terraformrc (for Terraform Cloud)",
+  "link": "https://app.terraform.io/",
+  "preRequisite": true,
+  "installProcedure": true,
+  "dependencies": [
+    "terraform"
+  ]
+}

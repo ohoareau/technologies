@@ -1,0 +1,9 @@
+{
+  "name": "ReactJS",
+  "link": "https://fr.reactjs.org/",
+  "dependencies": [
+    "node",
+    "npm",
+    "nvm"
+  ]
+}

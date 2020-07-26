@@ -1,0 +1,6 @@
+{
+  "name": "Git",
+  "link": "https://git-scm.com/",
+  "preRequisite": true,
+  "installProcedure": true
+}

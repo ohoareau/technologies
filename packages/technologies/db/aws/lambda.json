@@ -1,0 +1,7 @@
+{
+  "name": "AWS Lambda",
+  "link": "https://aws.amazon.com/lambda/",
+  "dependencies": [
+    "aws"
+  ]
+}

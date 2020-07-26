@@ -1,0 +1,6 @@
+{
+  "name": "NVM",
+  "link": "https://github.com/nvm-sh/nvm",
+  "preRequisite": true,
+  "installProcedure": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "AWS Identity and Access Management (IAM)",
+  "link": "https://aws.amazon.com/iam/",
+  "dependencies": [
+    "aws"
+  ]
+}

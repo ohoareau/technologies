@@ -1,0 +1,8 @@
+{
+  "name": "Jest",
+  "link": "https://jestjs.io/",
+  "dependencies": [
+    "node",
+    "nvm"
+  ]
+}

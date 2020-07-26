@@ -1,0 +1,7 @@
+{
+  "name": "AWS Certificate Manager (ACM)",
+  "link": "https://aws.amazon.com/certificate-manager/",
+  "dependencies": [
+    "aws"
+  ]
+}

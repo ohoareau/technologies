@@ -1,0 +1,6 @@
+{
+  "name": "Hub (for Git, by GitHub)",
+  "link": "https://github.com/github/hub",
+  "preRequisite": true,
+  "installProcedure": true
+}

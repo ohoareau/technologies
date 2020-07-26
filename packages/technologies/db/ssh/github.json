@@ -1,0 +1,6 @@
+{
+  "name": "SSH (for GitHub)",
+  "link": "https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account",
+  "preRequisite": true,
+  "installProcedure": true
+}

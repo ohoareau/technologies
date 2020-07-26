@@ -1,0 +1,6 @@
+{
+  "name": "tfenv",
+  "link": "https://github.com/tfutils/tfenv",
+  "preRequisite": true,
+  "installProcedure": true
+}

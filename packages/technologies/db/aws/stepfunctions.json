@@ -1,0 +1,7 @@
+{
+  "name": "AWS Step Functions",
+  "link": "https://aws.amazon.com/step-functions/",
+  "dependencies": [
+    "aws"
+  ]
+}

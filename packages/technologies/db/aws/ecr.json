@@ -1,0 +1,7 @@
+{
+  "name": "AWS Elastic Container Registry (ECR)",
+  "link": "https://aws.amazon.com/ecr/",
+  "dependencies": [
+    "aws"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "AWS Simple Email Service (SES)",
+  "link": "https://aws.amazon.com/ses/",
+  "dependencies": [
+    "aws"
+  ]
+}

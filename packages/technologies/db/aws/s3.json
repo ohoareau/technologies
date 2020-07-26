@@ -1,0 +1,7 @@
+{
+  "name": "AWS S3",
+  "link": "https://aws.amazon.com/s3/",
+  "dependencies": [
+    "aws"
+  ]
+}

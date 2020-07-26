@@ -1,0 +1,7 @@
+{
+  "name": "AWS CloudWatch",
+  "link": "https://aws.amazon.com/cloudwatch/",
+  "dependencies": [
+    "aws"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "AWS AppSync",
+  "link": "https://aws.amazon.com/appsync/",
+  "dependencies": [
+    "aws"
+  ]
+}

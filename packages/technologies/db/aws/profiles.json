@@ -1,0 +1,9 @@
+{
+  "name": "AWS Profiles",
+  "link": "https://aws.amazon.com/cli/",
+  "preRequisite": true,
+  "installProcedure": true,
+  "dependencies": [
+    "aws_cli"
+  ]
+}

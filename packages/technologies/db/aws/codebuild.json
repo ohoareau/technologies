@@ -1,0 +1,7 @@
+{
+  "name": "AWS CodeBuild",
+  "link": "https://aws.amazon.com/codebuild/",
+  "dependencies": [
+    "aws"
+  ]
+}

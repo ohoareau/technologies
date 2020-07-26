@@ -1,0 +1,7 @@
+{
+  "name": "AWS Management Console",
+  "link": "https://aws.amazon.com/console/",
+  "dependencies": [
+    "aws"
+  ]
+}

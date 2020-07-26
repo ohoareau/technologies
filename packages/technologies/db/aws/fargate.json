@@ -1,0 +1,7 @@
+{
+  "name": "AWS Fargate",
+  "link": "https://aws.amazon.com/fargate/",
+  "dependencies": [
+    "aws"
+  ]
+}

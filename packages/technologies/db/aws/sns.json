@@ -1,0 +1,7 @@
+{
+  "name": "AWS Simple Notification Service (SNS)",
+  "link": "https://aws.amazon.com/sns/",
+  "dependencies": [
+    "aws"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "AWS Simple Queue Service (SQS)",
+  "link": "https://aws.amazon.com/sqs/",
+  "dependencies": [
+    "aws"
+  ]
+}

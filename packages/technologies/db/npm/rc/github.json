@@ -1,0 +1,9 @@
+{
+  "name": "~/.npmrc (for GitHub)",
+  "link": "https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages",
+  "preRequisite": true,
+  "installProcedure": true,
+  "dependencies": [
+    "github"
+  ]
+}
