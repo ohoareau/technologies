@@ -11,7 +11,7 @@
   "files": [
     "lib",
     "templates",
-    "technologies/db"
+    "db"
   ],
   "publishConfig": {
     "access": "public"

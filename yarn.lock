@@ -1349,10 +1349,10 @@
   resolved "https://registry.yarnpkg.com/@ohoareau/aws-parse/-/aws-parse-0.2.0.tgz#3dcaae525dcf2da06d124b32ad8a442f96d3dc5d"
   integrity sha512-mIWqp2VM7VcfDk1gEHsHfSGQ5XuJNcP5p5xE9slw/1MMPHDDUpJlJANYf1x2SCsZIAYYDRcYZEF8kpDYnP+tkA==
 
-"@ohoareau/microgen-plugin-monorepo-js-libs@^0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@ohoareau/microgen-plugin-monorepo-js-libs/-/microgen-plugin-monorepo-js-libs-0.4.5.tgz#2a53a1381b79bf78deec2874534e0d63090a147c"
-  integrity sha512-jbflMsn5RpJ06YBVNp9AxC4dpa8ncInq1wCEMsS+Sgt5BiOa1/bzYHczaVtOIH3F3LNdnM/t0SeUFxksq0OZbw==
+"@ohoareau/microgen-plugin-monorepo-js-libs@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@ohoareau/microgen-plugin-monorepo-js-libs/-/microgen-plugin-monorepo-js-libs-0.4.6.tgz#691f8b68db6b991891efbb972cc349334c609436"
+  integrity sha512-U7/IpS+9DQBJ3Xa1rLBJCy+VzfOTpqp7M2CltcSUjtoOlIVI5d5zhCXZN56HRNXhG9hc0U172h5tgDrKgSJ0UQ==
   dependencies:
     "@ohoareau/microgen-templates" "^0.1.4"
 

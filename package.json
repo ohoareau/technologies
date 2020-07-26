@@ -13,7 +13,7 @@
   ],
   "devDependencies": {
     "@ohoareau/microgen": "^0.17.2",
-    "@ohoareau/microgen-plugin-monorepo-js-libs": "^0.4.5",
+    "@ohoareau/microgen-plugin-monorepo-js-libs": "^0.4.6",
     "lerna": "^3.22.1",
     "jest": "^26.1.0",
     "typescript": "^3.9.7",
