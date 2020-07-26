@@ -1,0 +1,7 @@
+{
+  "name": "Prismic.io SDK",
+  "link": "https://prismic.io/docs",
+  "dependencies": [
+    "prismicio"
+  ]
+}

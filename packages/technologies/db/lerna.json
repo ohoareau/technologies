@@ -1,0 +1,7 @@
+{
+  "name": "LernaJS",
+  "link": "https://lerna.js.org/",
+  "dependencies": [
+    "npm", "yarn"
+  ]
+}

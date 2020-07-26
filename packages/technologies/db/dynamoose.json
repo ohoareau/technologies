@@ -1,0 +1,8 @@
+{
+  "name": "Dynamoose",
+  "link": "https://dynamoosejs.com/",
+  "dependencies": [
+    "aws_dynamodb",
+    "node"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "AWS SDK",
+  "link": "https://aws.amazon.com/tools/",
+  "dependencies": [
+    "aws"
+  ]
+}

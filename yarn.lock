@@ -1375,6 +1375,11 @@
     yargonaut "^1.1.4"
     yargs "^15.3.1"
 
+"@ohoareau/technologies@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@ohoareau/technologies/-/technologies-0.4.3.tgz#a57163c703f8a44ff37cca7109c0843e31cd405d"
+  integrity sha512-KuuvmpYjul3yPZdZSyjSEyBGMrEo69mEsIen9G993qB8RopFzRJMGYUGVZtOc11ldv8Zvt1bzfutJMSIg30Qow==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
