@@ -114,6 +114,7 @@ export const detectTechnologiesFromPackageJsonDependenciesObject = (o: any): any
             case '@material-ui/core' === k: add(t, ['react_materialui']); break;
             case '@ohoareau/microgen' === k: add(t, ['microgen']); break;
             case '@ohoareau/microlib' === k: add(t, ['microlib']); break;
+            case 'nodemon' === k: add(t, ['nodemon']); break;
             case 'lerna' === k: add(t, ['lerna']); break;
         }
         return t;

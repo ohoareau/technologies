@@ -1,0 +1,9 @@
+{
+  "name": "NodeMon",
+  "link": "https://nodemon.io/",
+  "dependencies": [
+    "node",
+    "nvm",
+    "npm"
+  ]
+}
