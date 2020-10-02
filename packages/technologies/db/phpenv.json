@@ -1,0 +1,6 @@
+{
+  "name": "phpenv",
+  "link": "https://github.com/phpenv/phpenv",
+  "preRequisite": true,
+  "installProcedure": true
+}

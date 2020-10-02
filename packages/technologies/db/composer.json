@@ -1,0 +1,9 @@
+{
+  "name": "Composer",
+  "link": "https://getcomposer.org",
+  "preRequisite": true,
+  "installProcedure": true,
+  "dependencies": [
+    "php"
+  ]
+}

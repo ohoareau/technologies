@@ -1,0 +1,8 @@
+{
+  "name": "PHP",
+  "link": "https://www.php.net",
+  "preRequisite": true,
+  "dependencies": [
+    "phpenv"
+  ]
+}
