@@ -1,7 +1,24 @@
-[Follow instructions for your operating system](https://github.com/phpenv/phpenv)
+    curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash
+
+... or [Follow instructions for your operating system](https://github.com/phpenv/phpenv)
+
+Optional for MacOSX:
+
+- Copy/Paste the proposed profile script update to you bash profile or z profile file.
+- Restart your terminal
+
+(replace 7.3.10 below by your targeted PHP version)
+
+    brew install autoconf bison bzip2 curl icu4c libedit libjpeg libiconv libpng libxml2 libzip openssl re2c tidy-html5 zlib
+    PATH="$(brew --prefix icu4c)/bin:$(brew --prefix icu4c)/sbin:$(brew --prefix libiconv)/bin:$(brew --prefix curl)/bin:$(brew --prefix libxml2)/bin:$(brew --prefix bzip2)/bin:$(brew --prefix bison)/bin:$PATH" PHP_BUILD_CONFIGURE_OPTS="--with-zlib-dir=$(brew --prefix zlib) --with-bz2=$(brew --prefix bzip2) --with-curl=$(brew --prefix curl) --with-iconv=$(brew --prefix libiconv) --with-libedit=$(brew --prefix libedit)" phpenv install 7.3.10
+
+- Restart your terminal
+
+    phpenv global 7.3
+
 
 `Acceptance test`
 
-    phpenv help
+    php -v
 
-... should display the help of phpenv.
+... should display the right PHP version.
