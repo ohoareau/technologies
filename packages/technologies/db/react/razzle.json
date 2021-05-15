@@ -1,0 +1,7 @@
+{
+  "name": "Razzle (React)",
+  "link": "https://razzlejs.org/",
+  "dependencies": [
+    "react_js"
+  ]
+}
