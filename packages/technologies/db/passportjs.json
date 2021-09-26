@@ -1,0 +1,7 @@
+{
+  "name": "Passport",
+  "link": "https://www.passportjs.org/",
+  "dependencies": [
+    "npm"
+  ]
+}

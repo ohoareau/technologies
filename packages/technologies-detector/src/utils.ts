@@ -13,9 +13,12 @@ export const detectTechnologies = (rawDir: string): string[] => {
     const yarnLock = `${dir}/yarn.lock`;
     const terraformversion = `${dir}/.terraform-version`;
     const lernaJson = `${dir}/lerna.json`;
+    const goMod = `${dir}/go.mod`;
+    const tsconfigJson = `${dir}/tsconfig.json`;
     const github = `${dir}/.github`;
     const dockerignore = `${dir}/.dockerignore`;
     fs.existsSync(packageJson) && Object.assign(technos, detectTechnologiesFromPackageJsonObject(require(packageJson)));
+    fs.existsSync(tsconfigJson) && Object.assign(technos, detectTechnologiesFromTsconfigJsonObject(require(tsconfigJson)));
     fs.existsSync(makefile) && Object.assign(technos, detectTechnologiesFromMakefileContent(fs.readFileSync(makefile, 'utf8')));
     fs.existsSync(gitignore) && Object.assign(technos, detectTechnologiesFromGitIgnoreContent(fs.readFileSync(gitignore, 'utf8')));
     fs.existsSync(dockerignore) && Object.assign(technos, detectTechnologiesFromDockerIgnoreContent(fs.readFileSync(dockerignore, 'utf8')));
@@ -25,6 +28,7 @@ export const detectTechnologies = (rawDir: string): string[] => {
     fs.existsSync(yarnLock) && Object.assign(technos, detectTechnologiesFromYarnLockContent(fs.readFileSync(yarnLock, 'utf8')));
     fs.existsSync(lernaJson) && Object.assign(technos, detectTechnologiesFromLernaJsonObject(require(lernaJson)));
     fs.existsSync(github) && Object.assign(technos, detectTechnologiesFromGithubDirectory(github));
+    fs.existsSync(goMod) && Object.assign(technos, detectTechnologiesFromGoModContent(fs.readFileSync(goMod, 'utf8')));
     const rawIds = Object.entries(technos).reduce((acc, [k, v]) => {
         !!v && acc.push(k);
         return acc;
@@ -38,6 +42,18 @@ export const detectTechnologiesFromPackageJsonObject = (o: any): any => {
     o.peerDependencies && Object.assign(technos, detectTechnologiesFromPackageJsonDependenciesObject(o.peerDependencies));
     o.devDependencies && Object.assign(technos, detectTechnologiesFromPackageJsonDependenciesObject(o.devDependencies));
     return technos;
+};
+
+export const detectTechnologiesFromGoModContent = (c: string): any => {
+    return {
+        go: true,
+    };
+};
+
+export const detectTechnologiesFromTsconfigJsonObject = (o: any): any => {
+    return {
+        typescript: true,
+    };
 };
 
 export const detectTechnologiesFromLernaJsonObject = (o: any): any => {
@@ -100,6 +116,12 @@ export const detectTechnologiesFromPackageJsonDependenciesObject = (o: any): any
     return Object.entries(o || {}).reduce((t, [k]) => {
         switch (true) {
             case 'aws-sdk' === k: add(t, ['aws_sdk']); break;
+            case 'passport' === k: add(t, ['passportjs']); break;
+            case 'express' === k: add(t, ['express']); break;
+            case 'apollo-server-lambda' === k: add(t, ['apollo_server']); break;
+            case 'apollo-server' === k: add(t, ['apollo_server']); break;
+            case /^@babel\//.test(k): add(t, ['babel']); break;
+            case /^@storybook\//.test(k): add(t, ['storybook']); break;
             case /prismic/.test(k): add(t, ['prismicio_sdk']); break;
             case 'dynamoose' === k: add(t, ['dynamoose', 'aws_dynamodb']); break;
             case /graphql/.test(k): add(t, ['graphql']); break;

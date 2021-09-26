@@ -4,6 +4,7 @@ module.exports = {
     moduleNameMapper: {
         '~(.*)$': '<rootDir>/$1',
         "\\.css$": "identity-obj-proxy",
+        "\\.(ttf|eot|svg)": "identity-obj-proxy",
         "^lodash-es$": "lodash"
     },
     testEnvironment: 'node',

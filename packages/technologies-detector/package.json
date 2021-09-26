@@ -24,7 +24,7 @@
   "dependencies": {
     "@ohoareau/technologies": "^0.7.1",
     "yargonaut": "^1.1.4",
-    "yargs": "^15.3.1"
+    "yargs": "^17.2.1"
   },
   "bin": {
     "technologies-detector": "./bin/technologies-detector"
