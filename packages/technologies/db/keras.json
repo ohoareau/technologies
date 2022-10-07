@@ -1,0 +1,9 @@
+{
+  "name": "Keras",
+  "link": "https://keras.io/",
+  "preRequisite": false,
+  "dependencies": [
+    "python",
+    "tensorflow"
+  ]
+}

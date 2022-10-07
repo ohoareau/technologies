@@ -1,0 +1,8 @@
+{
+  "name": "TensorFlow",
+  "link": "https://www.tensorflow.org/",
+  "preRequisite": false,
+  "dependencies": [
+    "python"
+  ]
+}

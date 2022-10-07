@@ -1,0 +1,8 @@
+{
+  "name": "FastAPI",
+  "link": "https://fastapi.tiangolo.com/",
+  "preRequisite": false,
+  "dependencies": [
+    "python"
+  ]
+}
